@@ -2,6 +2,7 @@
 Introduction
 
 This repository contains a Python project designed to leverage Large Language Models (LLMs) for enhancing sales coaching. The primary goal is to automate product feature descriptions and improve negotiation strategies based on customer interactions captured in sales call transcripts.
+
 Project Overview
 
 The project involves the following key components:
@@ -13,11 +14,8 @@ Conversational Interface: Developing an interface where the LLM can engage with 
 Requirements
 
 Python 3.9+: Ensure you have Python 3.9 or a later version installed.
-
 Transformers Library: Install the Transformers library using pip (pip install transformers).
-
 PyTorch: Install PyTorch for GPU acceleration if available (pip install torch torchvision).
-
 Google Colab or Local Environment: You can run this project in Google Colab or a local Python environment.
 
 Installation
@@ -36,9 +34,7 @@ Ensure you have a compatible GPU for faster training (optional).
 
 Usage
 Fine-Tuning the LLM
-
 Prepare your dataset by annotating transcripts with relevant labels.
-
 Modify the transcripts.py file to include your dataset paths and labels.
 
 Run the fine-tuning script:
