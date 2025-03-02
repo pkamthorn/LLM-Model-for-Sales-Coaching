@@ -34,7 +34,7 @@ Install required packages:
     bash
     pip install -r requirements.txt
 
-    Ensure you have a compatible GPU for faster training (optional).
+Ensure you have a compatible GPU for faster training (optional).
 
 Usage
 Fine-Tuning the LLM
