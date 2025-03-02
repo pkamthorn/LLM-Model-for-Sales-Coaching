@@ -6,28 +6,26 @@ Project Overview
 
 The project involves the following key components:
 
-    Data Collection: Gathering sales call transcripts for training and testing.
-
-    LLM Fine-Tuning: Adapting a pre-trained LLM to understand product features and customer interactions.
-
-    Conversational Interface: Developing an interface where the LLM can engage with customers by asking questions and negotiating based on transcript analysis.
+Data Collection: Gathering sales call transcripts for training and testing.
+LLM Fine-Tuning: Adapting a pre-trained LLM to understand product features and customer interactions.
+Conversational Interface: Developing an interface where the LLM can engage with customers by asking questions and negotiating based on transcript analysis.
 
 Requirements
 
-    Python 3.9+: Ensure you have Python 3.9 or a later version installed.
+Python 3.9+: Ensure you have Python 3.9 or a later version installed.
 
-    Transformers Library: Install the Transformers library using pip (pip install transformers).
+Transformers Library: Install the Transformers library using pip (pip install transformers).
 
-    PyTorch: Install PyTorch for GPU acceleration if available (pip install torch torchvision).
+PyTorch: Install PyTorch for GPU acceleration if available (pip install torch torchvision).
 
-    Google Colab or Local Environment: You can run this project in Google Colab or a local Python environment.
+Google Colab or Local Environment: You can run this project in Google Colab or a local Python environment.
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-bash
-git clone https://github.com/your-username/llm-sales-coaching.git
+    bash
+    git clone https://github.com/your-username/llm-sales-coaching.git
 
 Install required packages:
 
@@ -61,22 +59,6 @@ Use the fine-tuned model to generate product descriptions based on new transcrip
 
 Conversational Interface
 
-    Implement a conversational interface using a framework like Flask or Django to interact with customers.
+Implement a conversational interface using a framework like Flask or Django to interact with customers.
 
-    Integrate the LLM with this interface to ask questions and negotiate based on customer input.
-
-Contributing
-
-Contributions are welcome! Please submit pull requests with clear descriptions of changes.
-License
-
-This project is licensed under the MIT License. See LICENSE for details.
-Acknowledgments
-
-    Thanks to the Hugging Face team for the Transformers library.
-
-    Special thanks to the contributors of pre-trained LLMs like Llama 3.1.
-
-Contact
-
-For questions or collaborations, please reach out to Your Email.
+Integrate the LLM with this interface to ask questions and negotiate based on customer input.
