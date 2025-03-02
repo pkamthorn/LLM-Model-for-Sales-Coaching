@@ -39,18 +39,18 @@ Ensure you have a compatible GPU for faster training (optional).
 Usage
 Fine-Tuning the LLM
 
-    Prepare your dataset by annotating transcripts with relevant labels.
+Prepare your dataset by annotating transcripts with relevant labels.
 
-    Modify the transcripts.py file to include your dataset paths and labels.
+Modify the transcripts.py file to include your dataset paths and labels.
 
-    Run the fine-tuning script:
+Run the fine-tuning script:
 
     bash
     python fine_tune_llm.py
 
 Generating Product Descriptions
 
-    Use the fine-tuned model to generate product descriptions based on new transcripts:
+Use the fine-tuned model to generate product descriptions based on new transcripts:
 
     python
     from generate_description import generate_product_description
